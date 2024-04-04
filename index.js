@@ -8,8 +8,8 @@ console.log(output); //32
 
 
 //1.2
-function computeAreaOfACircle(length){
-    return Math.PI * Math.pow(length, 2);
+function computeAreaOfACircle(radius){
+    return Math.PI * Math.pow(radius, 2);
 }
 
 output = computeAreaOfACircle(4);
